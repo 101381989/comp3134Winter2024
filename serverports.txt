@@ -1,0 +1,51 @@
+1. What is the definition of server port?
+
+ A port is a virtual place where network connections begin and stop. 
+Ports are software-based and controlled by a computer's operating system. 
+Each port is connected with a particular process or service. 
+Ports enable computers to readily distinguish between various types of traffic. 
+Emails, for example, use a different port than webpages, 
+even though both reach a computer via the same Internet connection.
+
+2. What is server port range?
+
+The server port range is typically from 0 to 65535.
+
+3.How many bits does number above represent?
+
+The port number is a 16-bit unsigned integer,
+ meaning it can represent values from 0 to 65535.
+ This implies that 16 bits are used to encode the port number.
+
+4. State 10 common server ports
+
+HTTP (Hypertext Transfer Protocol):
+
+Port: 80 (TCP)
+HTTPS (Hypertext Transfer Protocol Secure):
+
+Port: 443 (TCP)
+FTP (File Transfer Protocol):
+
+Port: 21 (TCP)
+SSH (Secure Shell):
+
+Port: 22 (TCP)
+SMTP (Simple Mail Transfer Protocol):
+
+Port: 25 (TCP)
+POP3 (Post Office Protocol version 3):
+
+Port: 110 (TCP)
+IMAP (Internet Message Access Protocol):
+
+Port: 143 (TCP)
+DNS (Domain Name System):
+
+Port: 53 (UDP)
+TELNET (Teletype Network):
+
+Port: 23 (TCP)
+SNMP (Simple Network Management Protocol):
+
+Port: 161 (UDP)
